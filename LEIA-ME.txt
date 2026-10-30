@@ -1,0 +1,20 @@
+EXERCICIOS 2 E 3 - SISTEMA DE BIBLIOTECA
+
+Arquivos:
+1. exercicio2_biblioteca.sql
+   Cria as tabelas item, usuario e emprestimo e insere dados de teste.
+
+2. exercicio3_consultas.sql
+   Contem as quatro consultas solicitadas no Exercício 3.
+
+Como executar no PostgreSQL / pgAdmin:
+1. Crie ou selecione o banco de dados biblioteca.
+2. Abra e execute exercicio2_biblioteca.sql.
+3. Abra e execute exercicio3_consultas.sql.
+
+Importante:
+- Execute o Exercício 2 antes do Exercício 3.
+- O script do Exercício 2 foi preparado para uma primeira execução.
+- Para recriar as tabelas, descomente os DROP TABLE no início do script.
+  A ordem correta para exclusão é emprestimo, usuario e item.
+- Os dados de empréstimo são exemplos fixos para fins didáticos.
